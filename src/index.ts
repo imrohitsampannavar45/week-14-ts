@@ -81,7 +81,102 @@
 
 // delay(msg);
 
-let greet = () =>
-{
-    console.log("Hi There");
+// let greet = () =>
+// {
+//     console.log("Hi There");
+// }
+
+
+// function greet(user: {
+//     name:string, 
+//     age: number
+// }){
+//     console.log("hello" + user.name)
+// }
+
+
+// greet({
+//     name:"harkirat",
+//     age:21
+// })
+
+// let user = {
+//     name:"harkirat",
+//     age:31
+// }
+
+// greet(user)
+
+
+
+
+
+
+// let firstName: string = "harkirat"
+// let age: number= 21
+
+
+// function greet(user:{
+//     firstname: string,
+//     age:number,
+//     lastname:string
+// })
+
+
+
+
+// let user : {
+//     firstname:string,
+//     age:number
+// } = {
+//     firstname: "harkiratr",
+//     age:32
+// }
+
+
+
+
+// let firstname: string = "rohit"
+// let age: number = 21
+
+
+// interface UserType  {
+//     firstname: string,
+//     lastname:  string,
+//     age: number
+// }
+
+// function greet(user: UserType) {
+
+// }
+
+
+// let user: UserType = {
+//     firstname :  "Rohit",
+//     age: 32,
+//     lastname : "Sampannavar"
+// } 
+
+
+
+
+interface User {
+    name:string,
+    age:number
+}
+
+
+type UserType = {
+    name:  string,
+    age: number
+}
+
+
+
+type SumInput = string | number;
+
+
+function sum(a:SumInput, b:SumInput){
+
+        console.log (return a + b )
 }

@@ -45,6 +45,19 @@
 //     console.log("Hi Message");
 // }
 // delay(msg);
-let greet = () => {
-    console.log("Hi There");
+// let greet = () =>
+// {
+//     console.log("Hi There");
+// }
+function greet(user) {
+    console.log("hello" + user.name);
+}
+greet({
+    name: "harkirat",
+    age: 21
+});
+let user = {
+    name: "jarkirat",
+    age: 31
 };
+greet(user);
