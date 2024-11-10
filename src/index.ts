@@ -513,6 +513,3 @@ import { server } from "typescript";
 
 // const intermediar = { x: 1, y:1, name:"johan", age:29};
 // console.log(intermediar.name);
-
-
-
