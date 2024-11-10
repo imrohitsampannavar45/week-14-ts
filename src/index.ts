@@ -160,23 +160,47 @@
 
 
 
-interface User {
-    name:string,
-    age:number
-}
+// interface User {
+//     name:string,
+//     age:number
+// }
 
 
-type UserType = {
-    name:  string,
-    age: number
-}
+// type UserType = {
+//     name:  string,
+//     age: number
+// }
 
 
 
-type SumInput = string | number;
+// type SumInput = string | number;
 
 
-function sum(a:SumInput, b:SumInput){
+// function sum(a:SumInput, b:SumInput){
 
-        console.log (return a + b )
-}
+//         console.log (return a + b )
+// }
+
+
+// function sum(a: number,  b: number):number{
+// return a+b
+// }
+
+
+// function greet(name:String):string{
+//     return "hello World" +name
+// }
+
+// var greeting = greet("rohit");
+// console.log(greeting);
+
+
+//interfaces and Types in TypeScript 
+
+// function isEven(num: number):boolean {
+//     if(num%2 == 0){
+//     return true
+//     } else {
+//         return false
+//     }
+// }
