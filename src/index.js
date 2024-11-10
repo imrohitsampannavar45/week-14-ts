@@ -1,5 +1,5 @@
 "use strict";
-// interface class 
+// let x: number  = 1; // in typescript // type inferencing
 class Manager {
     constructor(name, age) {
         this.name = name;
@@ -9,16 +9,6 @@ class Manager {
         return this.age > 18;
     }
 }
-class God extends Manager {
-    constructor(name, age) {
-        super(name, age);
-    }
-}
 const m = new Manager("harkirat", 21);
 console.log(m.name);
 console.log(m.age);
-console.log(m.isLegal());
-const G = new God("Rohit", 10);
-console.log(G.name);
-console.log(G.age);
-console.log(G.isLegal());

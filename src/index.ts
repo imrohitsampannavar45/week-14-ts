@@ -1,5 +1,7 @@
 // let x: number  = 1; // in typescript // type inferencing
 
+import { server } from "typescript";
+
 // // int x = 1; // in java
 
 // x = "harkirat"
@@ -204,3 +206,146 @@
 //         return false
 //     }
 // }
+
+
+
+// interfaces anf Types Class 11/10/2024
+
+
+// interface Office {
+
+
+//     city : string, 
+//     country : string ;
+//     pincode : number;
+//     houseNumber :string;
+
+
+
+
+// }
+
+
+// interface User  {
+//     name:string,
+//     age:number,
+//     address: Office // ? optional denoted
+//     }
+
+
+
+
+
+// interface office {
+// address :  office
+  
+// }
+
+
+
+
+
+
+// let user: User = {
+//     name:"harkirat",
+//     age:33,
+//     address: {
+//         city: "bangalore",
+//         country:"india",
+//         pincode:52441
+//     }
+// }
+
+
+
+
+// function isLegal(user:User):boolean{
+//     if(user.age >=18){
+//         return true;
+//     }else {
+//             return false
+//         }
+//     }
+
+//     let aging = isLegal(user)
+//     console.log(aging)
+ 
+
+//     //interface defined for custom type 
+
+
+
+
+
+// interface People {
+//     name: string, 
+//     age: number,
+//     greet: () => string,   /// functions 
+
+// }
+
+
+
+// interface Person {
+//     name:string,
+//     age:number;
+//     address : {
+//         pincode:number;
+//         houseno:1244
+//     }
+// }
+
+
+
+// let person: Person = {
+//     name:"rohit",
+//     age: 23,
+//     greet:() => {
+//         return "hi"
+//     }
+// }
+
+// let greeting = person.greet()
+// console.log(greeting)
+
+
+
+
+
+// // objects == 
+// let user = {
+//     console.log= "big time"
+// }
+
+
+
+
+// class  Rectangle {
+//     constructor() {}
+//     area() {}
+// }
+
+
+// let rect = new Rectangle()
+
+
+
+
+
+// interface People {
+//     name:string;
+//     age:number;
+// }
+
+// class Manager implements People{
+//     name:string;
+//     age:number;
+//     number:string;
+
+//     constructor(name:string, age:number){
+//         this.name = name;
+//         this.age = age;
+//         this.number("12334445");
+//     }
+// }
+
