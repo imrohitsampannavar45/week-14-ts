@@ -77,3 +77,43 @@
 
 // const m = new ASE_EMPLOYEE("Karthik", 23, "SE");
 // console.log(m.designation);
+
+
+
+
+
+
+
+
+
+
+// types intersection 
+
+
+// type Employee = {
+//     name: string;
+//     startDate: Date;
+//   };
+  
+//   type Manager = {
+//     name: string;
+//     department: string;
+//   };
+  
+//   type TeamLead = Employee & Manager;
+
+
+//   let e:  Employee = {
+//     name:"Rohit",
+//     startDate: "01-01-2023"
+//   }
+
+//   let m: Manager = {
+//     name:"harkirat",
+//     department:"electricity"
+//   }
+
+//   let t: TeamLead =  {
+// name:"harkirat",
+// startDate: "01-01-2024",
+//   }

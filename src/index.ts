@@ -349,3 +349,170 @@ import { server } from "typescript";
 //     }
 // }
 
+
+
+
+// 1. Implementing interfaces (types vs Interface)
+// 2. Abstract class vs interfaces
+
+
+// differnce b/w types and interfaces
+// interface User{
+//     name:string;
+//     age:number;
+
+// }
+
+
+// type User1 = {
+//     name:string;
+//     age:number;
+
+// }
+
+
+// cannot do in interface is unions and intersections in interface but we can in types
+
+
+
+
+// intersection - 
+// union  - can have either or all the values 
+
+
+// type GoodUSer = {
+//     name:string;
+//     gift:string;
+// }
+
+// type BadUser ={
+//     name:string;
+//     ip:string;
+// };
+
+
+// type User = GoodUSer & BadUser;
+
+
+// const user : User = {
+//     name:"Rohit",
+//     ip:"asssdsds",
+//     gift:"113232",
+// };
+
+
+
+
+
+// create two types called User and Admin
+// create a function that takes eitehr a user or an admin as an input, returns a string daying welcome  [ name]
+
+
+// interface Admin {
+//     name:string;
+//     permissions: string;
+   
+// }
+
+// interface User {
+// name:string;
+// age:number;
+// }
+
+// type UserorAdmin = User | Admin;
+
+// function greet(user:UserorAdmin){
+//     console.log(user.name);
+// }
+
+// interface  User  {
+//     age : number  & string
+// }
+
+
+
+
+
+
+// arrays in ts  
+
+
+// function getMax (num: number []){
+//     let maxvalue = -10000000000000000;
+
+
+//     for(let i=0; i<num.length;i++){
+//         if(num[i] > maxvalue){
+
+//         }
+//     }
+// }
+
+
+// interface Address {
+//     city: string;
+//     pincode:string;
+// }
+
+// interface User {
+// name:string;
+// age:number;
+// addresses: Address[]
+// }
+
+// function maxValue(arr: number[]) {
+//     let max = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i]
+//         }
+//     }
+//     return max;
+// }
+
+// console.log(maxValue([1, 2, 3]));
+
+
+
+
+//array example
+
+
+// interface User {
+// 	firstName: string;
+// 	lastName: string;
+// 	age: number;
+// }
+
+// function filterUsers(users: User[]){
+//     let ans = []
+//     for(let i =0 ; i< users.length ; i++){
+//         if(users[i].age>18){
+//             ans.push(users[i])
+//         }
+//     }
+//     return ans;
+// }
+
+
+// const filterdUsers = filterUsers([
+//     {
+//         firstName:"harkirat",
+//         lastName:"singh",
+//         age:20,
+//     }
+// ])
+
+
+
+// interface Point2D {
+//     x: number;
+//     y: number;
+// }
+
+
+// const intermediar = { x: 1, y:1, name:"johan", age:29};
+// console.log(intermediar.name);
+
+
+
